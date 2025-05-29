@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
         timerInterval = setInterval(() => {
             seconds++;
             timerElement.textContent = `Tempo: ${seconds}s`;
-        }, 1000);
+        }, 1);
     }
     
     // Gestisce il click sul pulsante di restart
